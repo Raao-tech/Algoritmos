@@ -61,7 +61,7 @@ function gridDraw(ctx, width,heigth, spaces) {
     ctx.beginPath();
 
     //lineas verticales de la cuadricula/grid
-    for (let index = 0; index <= width ; index = index + spaces  ){
+    for (let index = 0; index <= heigth ; index = index + spaces  ){
         
         console.log("este es el primer index del grid en el for vertical: " + index);
        
@@ -73,7 +73,7 @@ function gridDraw(ctx, width,heigth, spaces) {
         
     }
     //lineas horizontales de la cuadricula/grid
-    for (let index = 0; index <= heigth ; index = index + spaces) {
+    for (let index = 0; index <= width ; index = index + spaces) {
         
         
        
