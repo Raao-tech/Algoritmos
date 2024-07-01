@@ -23,13 +23,18 @@ if (canvas.getContext) {
     //Trazado de la cuadricula/grid
     gridDraw( ctx, canvas_width,canvas_heigth, spaces);
 
-    ctx.fillRect(0, 0, spaces, spaces);
+    ctx.fillRect(90, 0, spaces , spaces );
+    ctx.fillRect(120, 130, spaces , spaces );
+
+    
 
     canvas.addEventListener("mousemove", function(event) {
         const rect = canvas.getBoundingClientRect(); // Get canvas position
-        let X_mouse = event.clientX - rect.left | 0;
-        let Y_mouse = event.clientY  - rect.top | 0;
+        let X_mouse = Math.floor((event.clientX - rect.left)/10) * 10 | 0;
+        let Y_mouse = Math.floor((event.clientY  - rect.top)/10) * 10 | 0;
 
+
+        ctx.fillRect(X_mouse, Y_mouse, spaces, spaces);
         
 
         console.log("coordernadas del mouse X: " + X_mouse + ", Y: " + Y_mouse);
