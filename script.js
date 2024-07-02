@@ -36,9 +36,15 @@ if (canvas.getContext) {
 
         ctx.fillRect(X_mouse, Y_mouse, spaces, spaces);
         
+        
+
 
         console.log("coordernadas del mouse X: " + X_mouse + ", Y: " + Y_mouse);
     })
+
+ 
+
+
 
 
 
@@ -49,11 +55,6 @@ if (canvas.getContext) {
 
     
 }
-
-function player(color ="black" ,width = spaces, height = spaces, positionX1 = 0,positionX2 = 0) {
-    
-}
-
 
 /*
     @ ctx es el contexto 2D de canvas
