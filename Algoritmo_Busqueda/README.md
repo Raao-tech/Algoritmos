@@ -1,1 +1,0 @@
-Algoritmos, será un repositorio que contendrá proyectos que llevaran a la practica procesos lógicos secuenciales que tengan como objetivo satisfacer alguna necesidad, a la vez será un lugar para poder entrenar el pensamiento informático y el desenvolvimiento autónomo en lenguajes como javascript, Java, C, C++,  C# , Python o cualquier otro similar
