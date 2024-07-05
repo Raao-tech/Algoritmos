@@ -1,3 +1,7 @@
+import { Player } from "./classes/Player.js";
+
+const player = new Player();
+
 const canvas = document.getElementById("canvas");
 const spaces = 10 | 0;
 
